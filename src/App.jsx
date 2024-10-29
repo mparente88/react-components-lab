@@ -1,6 +1,6 @@
 import WeatherForecast from "./components/WeatherForecast/WeatherForecast.jsx"
 
-const App = () => {
+export const App = () => {
   const weatherForecasts = [
     {
       day: "Mon",
@@ -49,5 +49,3 @@ const App = () => {
     </>
   )
 }
-
-export default App
